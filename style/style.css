@@ -523,13 +523,15 @@ p{
     cursor: pointer;
 }
 
-.footer {
+.footer-main {
     min-width: 1140px;
+    height: 79px;
     display: flex;
     justify-content: space-between;
     background: #222224;
     padding: 24px calc(50% - 570px);
     align-items: center;
+    
 }
 .copy {
     font-size: 16px;
