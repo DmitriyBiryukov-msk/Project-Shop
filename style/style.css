@@ -293,6 +293,16 @@ p{
 
 }
 
+.products_new_arrivals-items {
+    width: 360px;
+    height: 581px;
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
 .products-items:nth-child(5){
     margin: 0;
 }
@@ -303,6 +313,16 @@ p{
     margin: 0;
 }
 
+
+.products_new_arrivals-items:nth-child(8){
+    margin: 0;
+}
+.products_new_arrivals-items:nth-child(9){
+    margin: 0;
+}
+.products_new_arrivals-items:nth-child(10){
+    margin: 0;
+}
 
 .product-img {
     width: 360px;
@@ -357,7 +377,6 @@ p{
 }
     
 .product-all__txt{
-    /* color: #F26376; */
     text-align: center;
     margin-top: 14.5px;
     text-align: center;
@@ -414,8 +433,6 @@ p{
 
 
 .feature {
-    /* width: 1600px;
-    height: 314px; */
     display: flex;
     justify-content: space-between;
     background-color:#222224;
@@ -558,3 +575,195 @@ p{
     color: #FFFFFF; 
 }
 
+
+
+
+.header-catalog{
+    background-color: #F8F3F4;
+    width: 1600px;
+    height: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 230px;
+    background: #F8F3F4;
+}
+
+.catalog__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color:#636363;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #636363;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #F16D7F;
+    
+  }
+  ul.breadcrumb li a:focus {
+    color: #F16D7F;
+    
+    
+}
+
+
+.filter_products {
+    box-sizing: border-box;
+    padding: 51px 0 34px 0;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+.filter-btn {
+    padding: 0;
+    display: flex;
+    border: none;
+    background: transparent;
+    align-items: center;
+}
+.filter-btn:hover .filter-btn-txt, .filter-btn-svg:hover {
+    fill: #EF5B70;
+    color: #EF5B70;
+}
+.filter-btn:hover .filter-btn-svg, .filter-btn-txt:hover {
+    fill: #EF5B70;
+    color: #EF5B70;
+}
+.filter-btn:active .filter-btn-txt, .filter-btn-svg:active {
+    color: brown;
+    fill: brown;
+}
+.filter-btn:active .filter-btn-svg, .filter-btn-txt:active {
+    color: brown;
+    fill: brown;
+}
+.filter-btn-txt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    text-transform: uppercase;
+}
+.filter-btn-svg {
+    fill: #000;
+    margin-left: 11px;
+}
+.filter-form {
+    margin-left: 320px;
+}
+.filter-form select {
+    margin-right: 28px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: #6F6E6E;
+    text-transform: uppercase;  
+}
+.catalog-products {
+    min-height: 1803px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.catalog-slider {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48.5px;
+}
+.catalog-slider ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #EBEBEB;
+    padding: 12px 15px;
+}
+.slider-list {
+    margin: 0 6px;
+}
+.slider-link {
+    text-decoration: none;
+    color: #222;
+}
+.slider-link:hover {
+    color: #EF5B70;
+}
+.slider-link:active {
+    color: brown;
+}
+.slider-link-svg:hover {
+    fill: #EF5B70;
+}
+.slider-link-svg:active {
+    fill: brown;
+}
+
+
+
+.products_new_arrivals {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+.catalog-slider {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 48px 0 96px 0;
+    width: 100%;
+}
+.catalog-slider ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #EBEBEB;
+    padding: 12px 15px;
+}
+.slider-list {
+    margin: 0 6px;
+}
+.slider-link {
+    text-decoration: none;
+    color: #222;
+}
+.slider-link:hover {
+    color: #EF5B70;
+}
+.slider-link:active {
+    color: brown;
+}
+.slider-link-svg:hover {
+    fill: #EF5B70;
+}
+.slider-link-svg:active {
+    fill: brown;
+}
