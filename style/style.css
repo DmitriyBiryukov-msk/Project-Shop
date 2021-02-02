@@ -201,7 +201,7 @@ p{
     height: 260px;
 }
 .filter__accesories{
-    z-index: 1;
+    z-index: 1; 
     position: absolute;
     background: rgba(33, 22, 22, 0.7);
     width: 1140px;
@@ -422,7 +422,103 @@ p{
         display: block;
 }
 
+.product-img {
+    width: 360px;
+    height: 420px;
+}
+.product-heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.6px;
+    line-height: 13px;
+    color:black;
+    padding-left: 18px;
+}
+.product-desc {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #5d5d5d;
+    padding-left:16.46px;
+    width: 314.74px;
+    height: 51px;
+}
+.product-price {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19,2px;
+    color: #F16D7F;
+    padding-left: 18.41px;
+    padding-bottom: 20px;
+}
+.product-all {
+    width: 211px;
+    height: 47px;
+    border: 1px solid #FF6A6A;
+    display: flex;
+    justify-content: center;
+    margin: 48.5px auto 95px auto;
+    outline: none;
+    background: none;
+    color: #F26376;
+}
 
+.product-all:hover { 
+    background-color: #F16D7F;
+    color: #FFFFFF; 
+    
+}
+    
+.product-all__txt{
+    text-align: center;
+    margin-top: 14.5px;
+    text-align: center;
+
+}
+
+
+.products_new_arrivals-items:hover .product-img {
+    filter: brightness(45%);
+    transition: all 0.7s;
+}
+.add-to-cart{
+    transition: all 0.7s;
+    display: none;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    border: 1px solid #e8e8e8;
+    margin: 188px 111px;
+    padding: 11px 14px 8px 13px;
+    color:#e8e8e8;
+}
+.add-to-cart,
+.add-to-cart:active,
+.add-to-cart:focus {
+    outline: none;
+}
+.add-to-cart-txt{
+    margin-left:11px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16,8px;
+    width: 72px;
+    height: 17px;
+    top: -5px;
+    position: relative
+}
+.products_new_arrivals-items:hover .add-to-cart{
+        display: block;
+}
 
 
 
@@ -471,7 +567,7 @@ p{
     min-width: 1140px;
     height: 448px;
     padding: 0 calc(50% - 570px);
-    background-image: linear-gradient(to top, rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url(/img/Layer41.png);
+    background-image: linear-gradient(to top, rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url(../img/Layer41.png);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
