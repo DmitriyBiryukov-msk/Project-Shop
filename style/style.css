@@ -93,7 +93,6 @@ a {
 }
 
 .menu {
-    margin-right: 25px;
     padding-top: 5px;
 }
 
@@ -102,9 +101,9 @@ a {
 }
 
 .account-btn {
-    margin-right: 43px;
     border: none;
     background-color: transparent;
+    margin: 0 33px 0 33px;
 }
 
 .cart-btn {
@@ -1286,4 +1285,132 @@ ul.breadcrumb li a:focus {
 }
 .buy-total-btn:focus {
     outline: 1px solid black;
+}
+
+
+.registration {
+    padding: 65px 230px 96px 230px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.registration-form {
+    box-sizing: border-box;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.registration-form-txt {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222;
+    text-transform: capitalize;
+}
+.first {
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 17px;
+    height: 45px;
+    box-sizing: border-box;
+}
+.first:focus {
+    outline: 1px solid #F16D7F; 
+}
+.first::placeholder {
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+.radio-form {
+    margin: 35px 0;
+    display: flex;
+    width: 132px;
+    justify-content: space-between;
+}
+.sex {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    text-transform: capitalize;
+    margin: 6px 0 0 10px;
+}
+#radio-btn,
+#radio-btn2 {
+    width: 17px;
+    height: 17px;
+}
+#radio-btn,
+#radio-btn2:focus {
+    outline: none;
+}
+
+.registration-p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin-top:15px;
+}
+
+.submit-btn {
+    margin-top: 25px;
+    padding: 15px 65px 15px 30px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #F16D7F;
+    text-transform: uppercase;
+    background-image: url(../img/reg-arrow-1.svg), 
+                      url(../img/reg-arrow-2.svg);
+    background-repeat: no-repeat;
+    background-position: 120px center, 131px center;
+    border: none;
+}
+.submit-btn:hover {
+    background-color: black;
+}
+.submit-btn:active {
+    background-color: brown;
+}
+.submit-btn:focus {
+    outline: 1px solid black;
+}
+.registration-info {
+    width: 650px;
+    box-sizing: border-box;
+}
+.registration-info-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+}
+.registration-info-p{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    list-style-type: none; 
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.registration-info-offer {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    list-style-type: none;
+}
+.registration-info-list {
+    margin-bottom: 16px;
+    list-style-image: url(../img/check.png);
+    margin-left: 30px;
 }
