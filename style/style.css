@@ -149,7 +149,6 @@ a {
 
 p {
     margin: 0 auto;
-    float: left;
     font-family: Lato;
     font-size: 32px;
     font-style: normal;
@@ -352,7 +351,7 @@ p {
     font-size: 14px;
     line-height: 16.8px;
     color: #5d5d5d;
-    padding-left:16.46px;
+    padding-left:16px;
     width: 314.74px;
     height: 51px;
 }
@@ -388,7 +387,6 @@ p {
 .product-all__txt {
     text-align: center;
     margin-top: 14.5px;
-    text-align: center;
 }
 
 
@@ -407,7 +405,6 @@ p {
     border: none;
     background-color: transparent;
     position: absolute;
-    border: 1px solid #e8e8e8;
     margin: 188px 111px;
     padding: 11px 14px 8px 13px;
     color:#e8e8e8;
@@ -481,7 +478,6 @@ p {
 .product-all__txt {
     text-align: center;
     margin-top: 14.5px;
-    text-align: center;
 }
 
 .products_new_arrivals-items:hover .product-img {
@@ -496,7 +492,6 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border: none;
     background-color: transparent;
     position: absolute;
     border: 1px solid #e8e8e8;
@@ -704,7 +699,6 @@ p {
   
 ul.breadcrumb li {
     display: inline;
-    font-size: 18px;
     font-size: 14px;
 }
   
@@ -809,7 +803,6 @@ ul.breadcrumb li a:focus {
 .catalog-slider ul {
     list-style-type: none;
     display: flex;
-    padding: 0;
     margin: 0;
     border: 1px solid #EBEBEB;
     padding: 12px 15px;
@@ -1902,7 +1895,6 @@ ul.breadcrumb li a:focus {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        border: none;
         background-color: transparent;
         position: absolute;
         border: 1px solid #e8e8e8;
@@ -2202,7 +2194,6 @@ ul.breadcrumb li a:focus {
     }
 
     .registration {
-        padding: 65px 230px 96px 230px;
         box-sizing: border-box;
         display: flex;
         justify-content: space-around;
@@ -2611,7 +2602,6 @@ ul.breadcrumb li a:focus {
     .product-all__txt {
         text-align: center;
         margin-top: 14.5px;
-        text-align: center;
     }
     
     .products_new_arrivals-items:hover .product-img {
@@ -2967,7 +2957,6 @@ ul.breadcrumb li a:focus {
         padding-bottom: 21px;
     }
     .registration {
-        padding: 65px 230px 96px 230px;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
